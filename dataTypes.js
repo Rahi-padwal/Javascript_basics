@@ -67,4 +67,24 @@ console.log(person.address.city);
 person.email = "alice.smith@example.com";
 console.log(person.email);
 
+//ARRAYS OF OBJECTS:
+const todo = [
+    {id: 1,
+    task: "Buy groceries",
+    completed: false
+    },
+    {id: 2,
+    task: "Walk the dog",
+    completed: true
+    },
+    {id: 3,
+    task: "Finish homework",
+    completed: false
+    }
+]
 
+console.log(todo);
+console.log(todo[1].task);
+
+const todoJson = JSON.stringify(todo);
+console.log(todoJson);
