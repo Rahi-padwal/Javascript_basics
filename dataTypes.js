@@ -34,5 +34,37 @@ console.log(`My name is ${name} and I'm ${age2}`); // Using template literals fo
 const random = ["apple", "banana", "orange", 100, true];
 console.log(random);
 console.log(random.length);
+console.log(random[2]);
+random.push("grape"); //addition at the end of the array
+console.log(random);
+random.pop();          //removal of the last element of the array
+console.log(random);
+random.unshift("grape"); //addition at the beginning of the array
+console.log(random);
+random.shift();          //removal of the first element of the array
+console.log(random);
+console.log(random.indexOf("banana")); //index of the element in the array
+console.log(random.includes("orange")); //check if the element is present in the array
+
+//OBJECT LITERALS:
+//object liter
+const person = {
+    firstName: "Alice",
+    lastName: "Smith",
+    age: 25,
+    hobbies: ["reading", "traveling", "cooking"],
+    address: {
+        street: "123 Main St",
+        city: "Boston",
+        state: "MA"   
+    }
+}
+
+console.log(person);
+console.log(person.firstName, person.lastName);
+console.log(person.hobbies[1]); 
+console.log(person.address.city);
+person.email = "alice.smith@example.com";
+console.log(person.email);
 
 
