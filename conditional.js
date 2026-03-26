@@ -13,8 +13,8 @@ if(y === 20){ //=== checks for both value and type
 
 //ternary operator
 const i = 10;
-const color = i > 5 ? "red" : "blue";
-console.log(color); //red
+const color = i >  20 ? "red" : "blue";
+console.log(color) //blue
 
 switch(color){
     case "red":
